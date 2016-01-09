@@ -12,6 +12,9 @@ db = SQLAlchemy(app)  # DB Connection Instance
 login_manager = flask_login.LoginManager()
 login_manager.init_app(app)
 
+from flask.ext.misaka import Misaka
+Misaka(app)
+
 from models import *
 
 @login_manager.user_loader
