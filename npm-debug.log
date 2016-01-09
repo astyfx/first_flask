@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'webpack',
+1 verbose cli   'node-sass',
+1 verbose cli   'style-loader',
+1 verbose cli   'css-loader',
+1 verbose cli   'dependencies:',
+1 verbose cli   '{' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of /home/astyfx/first_flask/package.json
+5 warn package.json first_flask@1.0.0 No description
+6 warn package.json first_flask@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /home/astyfx/first_flask/node_modules/css-loader/package.json
+8 verbose installManyTop reading scoped package data from /home/astyfx/first_flask/node_modules/extract-text-webpack-plugin/package.json
+9 verbose installManyTop reading scoped package data from /home/astyfx/first_flask/node_modules/node-sass/package.json
+10 verbose installManyTop reading scoped package data from /home/astyfx/first_flask/node_modules/sass-loader/package.json
+11 verbose installManyTop reading scoped package data from /home/astyfx/first_flask/node_modules/style-loader/package.json
+12 verbose installManyTop reading scoped package data from /home/astyfx/first_flask/node_modules/webpack/package.json
+13 verbose readDependencies loading dependencies from /home/astyfx/first_flask/package.json
+14 verbose install webpack is installed as 1.12.9
+15 silly cache add args [ 'webpack@^1.12.9', null ]
+16 verbose cache add spec webpack@^1.12.9
+17 verbose install node-sass is installed as 3.4.2
+18 silly cache add args [ 'node-sass@^3.4.2', null ]
+19 verbose cache add spec node-sass@^3.4.2
+20 verbose install style-loader is installed as 0.13.0
+21 silly cache add args [ 'style-loader@^0.13.0', null ]
+22 verbose cache add spec style-loader@^0.13.0
+23 verbose install css-loader is installed as 0.23.0
+24 silly cache add args [ 'css-loader@^0.23.0', null ]
+25 verbose cache add spec css-loader@^0.23.0
+26 verbose stack Error: Unsupported URL Type: dependencies:
+26 verbose stack     at parseUrl (/usr/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:168:13)
+26 verbose stack     at npa (/usr/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+26 verbose stack     at resolver (/usr/lib/node_modules/npm/lib/install.js:845:42)
+26 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+26 verbose stack     at Array.forEach (native)
+26 verbose stack     at /usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+26 verbose stack     at Array.forEach (native)
+26 verbose stack     at asyncMap (/usr/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+26 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:703:5
+26 verbose stack     at ReadFileContext.<anonymous> (/usr/lib/node_modules/npm/lib/install.js:368:22)
+27 verbose cwd /home/astyfx/first_flask
+28 error Linux 3.19.0-25-generic
+29 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "webpack" "node-sass" "style-loader" "css-loader" "dependencies:" "{"
+30 error node v4.2.3
+31 error npm  v2.14.7
+32 error Unsupported URL Type: dependencies:
+33 error If you need help, you may report this error at:
+33 error     <https://github.com/npm/npm/issues>
+34 verbose exit [ 1, true ]
